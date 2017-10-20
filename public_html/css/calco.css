@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 oct. 2017, 08:38:17
+    Author     : Leeroy
+*/
+
+#calco{
+    height: 400px;
+    width: 300px;
+    background-color: rgb(67,66,54);
+    margin-top: 150px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+
+#ecran{
+    height: 50px;
+    width: 275px;
+    border-radius: 10px;
+    background-color: rgb(184,237,103);
+    margin-top: 10px;
+    margin-left: 9px;
+    font-size: 40px;
+}
+
+#clavier{
+    height: 315px;
+    width: 280px;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+#resetBox{
+    width: 300px;
+    margin-top: 10px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: rgb(200,2,20);
+    margin-left: 200px;
+}
+
+#reset{
+    height: 55px;
+    width: 210px;
+    margin-left: 5px;
+    border-radius: 10px;
+    color:white;
+    font-size: 40px;
+}
+
+#delete{
+    height: 55px;
+    width: 80px;
+    margin-top: 2.3px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    margin-left: -2px;
+    font-size: 40px;
+}
+
+.number, .operator{ 
+    height: 60px;
+    width: 60px;
+    border:none;
+    border-radius: 10px;
+    color:white;
+    font-size: 40px;
+}
+
+.number{
+    background-color: rgb(37,38,32);
+}
+
+.operator{
+    background-color: rgb(194,193,182);
+}
+

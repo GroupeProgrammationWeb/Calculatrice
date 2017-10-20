@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/calco.css"/>
+    </head>
+    <body>
+        <div id="calco">
+            <input type="text" id="ecran" autofocus="autofocus"/>
+            <table id="clavier">
+                <tr>
+                    <td><input class="number" id="7" onclick="print(7);" value="7" type="button"/></td>
+                    <td><input class="number" id="8" value="8" onclick="print(8);" type="button"/></td>
+                    <td><input class="number" id="9" value="9" onclick="print(9);" type="button"/></td>
+                    <td><input class="operator" id="/" value="&divide;" onclick="print('/');" type="button"/></td>
+                </tr>
+                <tr>
+                    <td><input class="number" id="4" value="4" onclick="print(4);" type="button"/></td>
+                    <td><input class="number" id="5" value="5" onclick="print(5);" type="button"/></td>
+                    <td><input class="number" id="6" value="6" onclick="print(6);" type="button"/></td>
+                    <td><input class="operator" id="X" value="X" onclick="print('*');" type="button"/></td>
+                </tr>
+                <tr>
+                    <td><input class="number" id="3" value="3" onclick="print(3);" type="button"/></td>
+                    <td><input class="number" id="2" value="2" onclick="print(2);" type="button"/></td>
+                    <td><input class="number" id="1" value="1" onclick="print(1);" type="button"/></td>
+                    <td><input class="operator" id="-" value="-" onclick="print('-');" type="button"/></td>
+                </tr>
+                <tr>
+                    <td><input class="number" id="0" value="0" onclick="print(0);" type="button"/></td>
+                    <td><input class="operator" id="." value="." onclick="print('.');" type="button"/></td>
+                    <td><input class="operator" id="equal" value="="  onclick="result(document.getElementById('ecran').value);" type="button"/></td>
+                    <td><input class="operator" id="plus" value="+"  onclick="print('+');" type="button"/></td>
+                </tr>
+            </table>
+        </div>
+        <div id="resetBox">
+            <input type="button" id="reset" value="reset" onclick="reset();"/>
+            <input type="button" id="delete" value="&LongLeftArrow;" onclick="backspace();"/>
+        </div>
+        <script type="text/javascript" src="js/calco.js"></script>
+    </body>
+</html>
